@@ -2,14 +2,25 @@
 	font-family "My Logo Font"
 	src url(black_jack.ttf) format("truetype")
 
+color_red = #F8989C
+color_green = #CEE6DB
+color_white = #fff
+
 body
-	background-color #CEE6DB
-	color Black
+	background-color color_red
+	color color_white
+
+	a
+		color color_white
+
+	.quick_fix
+		min-height 50px		
+
 
 	span.element
 		font-size 30px
 		margin 20px 0
-		min-hieght 100px
+		min-height 100px
 
 	main_content
 		margin auto
@@ -20,6 +31,15 @@ body
 
 	.written_text
 		font-size 20px
+
+	.curved_corners
+		border-radius 30px
+	
+	.white_row
+		color color_red
+		background-color color_white
+		a
+			color  color_red
 
 div
 	border-radius(5px)
